@@ -1,5 +1,6 @@
 sudo apt-get update
 sudo apt-get upgrade
+sudo apt install git
 sudo apt install vim
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 mkdir /tmp/vim-config
