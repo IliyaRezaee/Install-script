@@ -7,3 +7,5 @@ git clone https://github.com/IliyaRezaee/vim-config.git /tmp
 cp /tmp/vim-config/vimrc.txt ~/.vimrc
 sudo apt install zsh
 sudo chsh -s /usr/bin/zsh
+#########################
+sudo apt install jcal
