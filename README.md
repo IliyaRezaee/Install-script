@@ -1,5 +1,8 @@
-My personal installation script for practical programs.
+My **personal** installation script for practical programs.
 
-for installation
+Installation
+=====================================================================
 run this command in terminal:
+```
 wget https://github.com/IliyaRezaee/Install-script/archive/master.zip
+```
