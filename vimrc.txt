@@ -18,6 +18,8 @@ Plugin 'davidhalter/jedi-vim'
 
 " ...
 
+let g:jedi#completions_command = "<Tab>"
+
 au BufNewFile,BufRead *.py
     \set tabstop=4
     \set softtabstop=4
