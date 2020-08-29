@@ -15,10 +15,16 @@ Plugin 'gmarik/Vundle.vim'
 " used Bundle instead of Plugin)
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'davidhalter/jedi-vim'
+Plugin 'Valloric/YouCompleteMe'
 
 " ...
 
 let g:jedi#completions_command = "<Tab>"
+
+" Enable folding
+set foldmethod=indent
+set foldlevel=99
+nnoremap <space> za
 
 au BufNewFile,BufRead *.py
     \set tabstop=4
@@ -33,8 +39,7 @@ au BufNewFile,BufRead *.py
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
- highlight BadWhitespace ctermbg=red guibg=darkred
+au BufRead,BufNewFile * match BadWhitespace /\s\+$/
 
 colorscheme desert
 set number
@@ -44,5 +49,6 @@ set undolevels=1000
 set wildignore=*.swp,*.bak,*.pyc
 set visualbell
 set noerrorbells
-
 set encoding=utf-8
+
+highlight BadWhitespace ctermbg=red guibg=darkred
