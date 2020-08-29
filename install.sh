@@ -33,7 +33,8 @@ sudo chsh -s /usr/bin/zsh
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 echo "=============End of installing and configuration of 'zsh'...============="
 
-echo "=============[Installing 'jcal, screenfetch'](option)============="
+echo "=============Installing others============="
 sudo apt install jcal
 sudo apt install screenfetch
+sudo apt install curl
 echo "Done!"
