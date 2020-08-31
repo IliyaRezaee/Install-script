@@ -1,5 +1,5 @@
 echo "=============Start updating repository...============="
-sudo apt-get update -y
+sudo apt-get update
 sudo apt-get upgrade -y
 echo "=============End of updating repository============="
 
@@ -34,6 +34,12 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 echo "=============End of installing and configuration of 'zsh'...============="
 
 echo "=============[Installing 'jcal, screenfetch'](option)============="
+echo "Installing jcal"
 sudo apt install jcal
+echo "Installing screenfetch"
 sudo apt install screenfetch
+echo "Installing theme..."
+sudo add-apt-repository ppa:numix/ppa
+sudo apt-get update
+sudo apt install numix-blue-gtk-theme numix-gtk-theme numix-icon-theme-circle numix-icon-theme
 echo "Done!"
