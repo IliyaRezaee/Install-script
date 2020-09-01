@@ -11,5 +11,5 @@ How to use it??
 =====================================================================
 run this command in terminal:
 ```
-cd ~/Downloads; unzip master.zip -d ./; sudo ./Install-script-master/install.sh;
+cd ~/Downloads; unzip master.zip -d ./; sudo bash Install-script-master/install.sh;
 ```
