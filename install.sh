@@ -42,7 +42,7 @@ echo "Installing theme..."
 sudo add-apt-repository ppa:numix/ppa
 sudo apt-get update
 sudo apt install numix-blue-gtk-theme numix-gtk-theme numix-icon-theme-circle numix-icon-theme
-git clone https://github.com/numixproject/numix-icon-theme-circle.git
+git clone https://github.com/vinceliuice/Canta-theme.git
 sudo cp -r ~/Downloads/Canta-theme /usr/share/icons
 sudo ./install.sh
 echo "Installing net-tools"
