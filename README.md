@@ -1,15 +1,13 @@
-My **personal** installation script for practical programs.
-
 Installation
 =====================================================================
-run this command in terminal:
-```
-cd ~/Downloads;  wget https://github.com/IliyaRezaee/Install-script/archive/master.zip
+install git and run this command in terminal:
+```bash
+git clone https://github.com/IliyaRezaee/vimrc.git
 ```
 
 How to use it??
 =====================================================================
 run this command in terminal:
-```
-cd ~/Downloads; unzip master.zip -d ./; sudo bash Install-script-master/install.sh;
+```bash
+cd vimrc; cp vimrc.txt ~/.vimrc
 ```
